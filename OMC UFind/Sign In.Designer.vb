@@ -35,10 +35,8 @@ Partial Class Sign_In
         Me.btnSign1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.picSlider = New System.Windows.Forms.PictureBox()
         Me.sliderTimer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picSlider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblLogin
@@ -47,9 +45,9 @@ Partial Class Sign_In
         Me.lblLogin.BackColor = System.Drawing.Color.Transparent
         Me.lblLogin.Font = New System.Drawing.Font("Poppins", 14.8!, System.Drawing.FontStyle.Bold)
         Me.lblLogin.ForeColor = System.Drawing.Color.OrangeRed
-        Me.lblLogin.Location = New System.Drawing.Point(160, 330)
+        Me.lblLogin.Location = New System.Drawing.Point(180, 412)
         Me.lblLogin.Name = "lblLogin"
-        Me.lblLogin.Size = New System.Drawing.Size(88, 44)
+        Me.lblLogin.Size = New System.Drawing.Size(106, 53)
         Me.lblLogin.TabIndex = 1
         Me.lblLogin.Text = "Login"
         '
@@ -59,9 +57,9 @@ Partial Class Sign_In
         Me.lblSignIn.BackColor = System.Drawing.Color.Transparent
         Me.lblSignIn.Font = New System.Drawing.Font("Poppins", 7.0!)
         Me.lblSignIn.ForeColor = System.Drawing.Color.IndianRed
-        Me.lblSignIn.Location = New System.Drawing.Point(140, 365)
+        Me.lblSignIn.Location = New System.Drawing.Point(158, 456)
         Me.lblSignIn.Name = "lblSignIn"
-        Me.lblSignIn.Size = New System.Drawing.Size(124, 22)
+        Me.lblSignIn.Size = New System.Drawing.Size(144, 25)
         Me.lblSignIn.TabIndex = 2
         Me.lblSignIn.Text = "Sign in to continue."
         '
@@ -71,9 +69,9 @@ Partial Class Sign_In
         Me.lblUsername.BackColor = System.Drawing.Color.Transparent
         Me.lblUsername.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUsername.ForeColor = System.Drawing.Color.Gray
-        Me.lblUsername.Location = New System.Drawing.Point(51, 391)
+        Me.lblUsername.Location = New System.Drawing.Point(57, 489)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(90, 26)
+        Me.lblUsername.Size = New System.Drawing.Size(107, 31)
         Me.lblUsername.TabIndex = 3
         Me.lblUsername.Text = "USERNAME"
         '
@@ -83,9 +81,9 @@ Partial Class Sign_In
         Me.lblPassword.BackColor = System.Drawing.Color.Transparent
         Me.lblPassword.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPassword.ForeColor = System.Drawing.Color.Gray
-        Me.lblPassword.Location = New System.Drawing.Point(51, 457)
+        Me.lblPassword.Location = New System.Drawing.Point(57, 571)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(96, 26)
+        Me.lblPassword.Size = New System.Drawing.Size(114, 31)
         Me.lblPassword.TabIndex = 4
         Me.lblPassword.Text = "PASSWORD"
         '
@@ -94,10 +92,11 @@ Partial Class Sign_In
         Me.txtUsername.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtUsername.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(56, 420)
+        Me.txtUsername.Location = New System.Drawing.Point(63, 525)
+        Me.txtUsername.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtUsername.Multiline = True
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(299, 34)
+        Me.txtUsername.Size = New System.Drawing.Size(336, 42)
         Me.txtUsername.TabIndex = 5
         '
         'lblforgotpass
@@ -106,9 +105,9 @@ Partial Class Sign_In
         Me.lblforgotpass.BackColor = System.Drawing.Color.Transparent
         Me.lblforgotpass.Font = New System.Drawing.Font("Poppins", 7.2!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblforgotpass.ForeColor = System.Drawing.Color.Snow
-        Me.lblforgotpass.Location = New System.Drawing.Point(140, 590)
+        Me.lblforgotpass.Location = New System.Drawing.Point(158, 738)
         Me.lblforgotpass.Name = "lblforgotpass"
-        Me.lblforgotpass.Size = New System.Drawing.Size(117, 22)
+        Me.lblforgotpass.Size = New System.Drawing.Size(150, 26)
         Me.lblforgotpass.TabIndex = 8
         Me.lblforgotpass.Text = "Forgot Password ?"
         '
@@ -118,9 +117,9 @@ Partial Class Sign_In
         Me.lblSIgnUp.BackColor = System.Drawing.Color.Transparent
         Me.lblSIgnUp.Font = New System.Drawing.Font("Poppins", 7.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSIgnUp.ForeColor = System.Drawing.Color.White
-        Me.lblSIgnUp.Location = New System.Drawing.Point(114, 613)
+        Me.lblSIgnUp.Location = New System.Drawing.Point(128, 766)
         Me.lblSIgnUp.Name = "lblSIgnUp"
-        Me.lblSIgnUp.Size = New System.Drawing.Size(96, 22)
+        Me.lblSIgnUp.Size = New System.Drawing.Size(123, 26)
         Me.lblSIgnUp.TabIndex = 9
         Me.lblSIgnUp.Text = "Not a user yet?"
         '
@@ -130,9 +129,9 @@ Partial Class Sign_In
         Me.lblSignUpLogin.BackColor = System.Drawing.Color.Transparent
         Me.lblSignUpLogin.Font = New System.Drawing.Font("Poppins", 7.2!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSignUpLogin.ForeColor = System.Drawing.Color.White
-        Me.lblSignUpLogin.Location = New System.Drawing.Point(221, 613)
+        Me.lblSignUpLogin.Location = New System.Drawing.Point(249, 766)
         Me.lblSignUpLogin.Name = "lblSignUpLogin"
-        Me.lblSignUpLogin.Size = New System.Drawing.Size(55, 22)
+        Me.lblSignUpLogin.Size = New System.Drawing.Size(69, 26)
         Me.lblSignUpLogin.TabIndex = 10
         Me.lblSignUpLogin.Text = "Sign Up"
         '
@@ -145,9 +144,10 @@ Partial Class Sign_In
         Me.btnSign1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSign1.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSign1.ForeColor = System.Drawing.Color.White
-        Me.btnSign1.Location = New System.Drawing.Point(88, 551)
+        Me.btnSign1.Location = New System.Drawing.Point(99, 689)
+        Me.btnSign1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSign1.Name = "btnSign1"
-        Me.btnSign1.Size = New System.Drawing.Size(233, 36)
+        Me.btnSign1.Size = New System.Drawing.Size(262, 45)
         Me.btnSign1.TabIndex = 7
         Me.btnSign1.Text = "Sign In"
         Me.btnSign1.UseVisualStyleBackColor = False
@@ -155,9 +155,10 @@ Partial Class Sign_In
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Location = New System.Drawing.Point(-197, 145)
+        Me.PictureBox1.Location = New System.Drawing.Point(-222, 181)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(716, 841)
+        Me.PictureBox1.Size = New System.Drawing.Size(806, 1051)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
@@ -167,22 +168,12 @@ Partial Class Sign_In
         Me.TextBox1.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(56, 486)
+        Me.TextBox1.Location = New System.Drawing.Point(63, 608)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(299, 34)
+        Me.TextBox1.Size = New System.Drawing.Size(336, 42)
         Me.TextBox1.TabIndex = 13
-        '
-        'picSlider
-        '
-        Me.picSlider.BackColor = System.Drawing.Color.Transparent
-        Me.picSlider.Image = Global.OMC_UFind.My.Resources.Resources.clothes
-        Me.picSlider.Location = New System.Drawing.Point(88, 55)
-        Me.picSlider.Name = "picSlider"
-        Me.picSlider.Size = New System.Drawing.Size(221, 202)
-        Me.picSlider.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.picSlider.TabIndex = 14
-        Me.picSlider.TabStop = False
         '
         'sliderTimer
         '
@@ -190,11 +181,10 @@ Partial Class Sign_In
         '
         'Sign_In
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.OMC_UFind.My.Resources.Resources.front_backround2
-        Me.ClientSize = New System.Drawing.Size(407, 651)
-        Me.Controls.Add(Me.picSlider)
+        Me.ClientSize = New System.Drawing.Size(458, 814)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.lblSignUpLogin)
         Me.Controls.Add(Me.lblSIgnUp)
@@ -208,13 +198,13 @@ Partial Class Sign_In
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Sign_In"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Sign_In"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picSlider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -230,6 +220,5 @@ Partial Class Sign_In
     Friend WithEvents btnSign1 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents picSlider As PictureBox
     Friend WithEvents sliderTimer As Timer
 End Class
