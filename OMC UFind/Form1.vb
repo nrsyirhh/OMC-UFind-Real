@@ -1,25 +1,9 @@
 ﻿Public Class Form1
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
 
-    End Sub
+        Button3.FlatStyle = FlatStyle.Flat
+        Button3.FlatAppearance.BorderSize = 0
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
 
     End Sub
 End Class
