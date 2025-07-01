@@ -1,36 +1,25 @@
 ﻿Public Class Form1
-    Private Sub btnSignUp_Click(sender As Object, e As EventArgs)
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
-    Private Sub picSignUpButton_Click(sender As Object, e As EventArgs)
+    Private Sub Button5_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs)
-        Me.Hide()
-        Sign_In.Show()
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
-        Me.Hide()
-        Sign_In.Show()
-    End Sub
-
-    Private Sub lblUfind_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub btnSignIn_Click(sender As Object, e As EventArgs) Handles btnSignIn.Click
-        Me.Hide()
-        Sign_In.Show()
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
-        Me.Hide()
-        SignUp.Show()
-    End Sub
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
 
     End Sub
 End Class
